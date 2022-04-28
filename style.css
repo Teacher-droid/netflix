@@ -1,0 +1,50 @@
+#userSearch {
+    width: 500px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+  
+.searchButtonOnly {
+    border-radius: 10px;
+    background-color: #cec0ab;
+    color:#FFF;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.buttonLearnMore {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #cec0ab;
+    color:#FFF;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+  
+/*popup*/
+* {
+    box-sizing: border-box;
+}
+  
+.popupShit {
+    position: fixed;
+    top: 0;
+    left: 0.5;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    
+}
+  
+.popup__container { 
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: 100px auto;
+    max-width: 100%;
+    padding: 20px;
+    width: auto;
+    
+}
